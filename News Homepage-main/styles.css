@@ -1,0 +1,141 @@
+body{
+scale: 0.9;
+}
+
+#logo{
+margin-left: 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 34rem ;
+}
+
+nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    color: grey;
+    margin-inline: 20px;
+}
+
+ul li:hover{
+   color: rgb(245, 82, 82);
+}
+
+.box:hover{
+    transition: 0.3em; 
+    cursor: pointer;
+    scale: 1.1;
+} 
+
+#img1{
+    margin-left: 105px;
+}
+
+.border-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 105px;
+}
+
+.header{
+    font-family: 'Inter', sans-serif;
+    font-size:22px;
+}
+
+.paragraph{
+    margin-left: 8rem;
+    margin-top: 20px;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    background-color:hsl(5, 85%, 63%);
+    color:hsl(36, 100%, 99%);
+    border: 0px;
+    width: 8rem; height: 2rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new{
+    background-color: hsl(240, 100%, 5%);
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    order:0;
+    z-index: -1;
+    margin-left:52rem;
+    width: 22rem; height: 29rem;
+} 
+
+.new h2{
+    color:hsl(35, 77%, 62%);
+    margin-left: 40px;
+}
+
+.new h3{
+    color:  hsl(36, 100%, 99%);
+    margin-left: 40px;
+}
+
+.new p{
+    margin-top: 0px;
+    color:  hsl(36, 100%, 99%);
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#sl{
+    border-bottom: solid hsl(36, 100%, 99%);
+    border-bottom-width: 0.01px;
+}
+
+#img2, #img3, #img4{
+    height: 8rem;
+    margin-left: 8px;
+    padding-right: 30px;
+}
+
+h4{
+    margin: 8px;
+    font-family: 'Inter', sans-serif;
+    color: grey;
+    font-size: x-large;
+}
+
+a{
+    margin: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(245, 82, 82);
+ }
+ 
+.retro p, .top p, .gaming p{
+    font-family: 'Inter', sans-serif;
+    color: grey;
+    font-size: small;
+    font-weight: 500;
+    padding-right: 50px;
+    margin: 8px;
+}
+
+@media screen and (max-width:375px) {
+    
+    
+}
